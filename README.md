@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# ToDo List ADD&REMOVE.
+# ToDo List.
 
-> In this branch (to do list add and remove) 😊 I make the structuer with webpak . my gool is to use the webpak for more organizing.
+> In this branch (to do list) 😊 I make the structuer with webpak . my gool is to use the webpak for more organizing.
 
 ## Built With
 
@@ -27,8 +27,23 @@
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these simple steps.
 
+### Prerequisites
+
+- Use `git clone https://github.com/mrkamin/ToDoList/tree/To-Do-list-Intractive` to clone the repository using the HTTPS link into your local machine
+
+### Setup
+
+- `cd` into your local repository
+
+### Install
+
+- `npm install` - Installs the necessary dependencies
+
+### Usage
+
+- Open the index file and enjoy
 
 ## Authors
 
