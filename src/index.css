@@ -168,11 +168,7 @@ a:active {
   flex-direction: column;
 }
 
-.time {
-  margin: auto;
-  display: flex;
-  font-size: small;
-}
+
 
 #sect__one__cont__items__item__one {
   position: relative;
