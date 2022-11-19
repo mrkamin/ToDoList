@@ -2,7 +2,6 @@ import './index.css';
 /* eslint-disable import/no-cycle */
 import { showToDoTasks } from './modules/task-show.js';
 
-
 // Initial References
 export const inputNewTasks = document.querySelector('#sect__one__cont__items__item__one input');
 

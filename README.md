@@ -31,7 +31,7 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-- Use `git clone https://github.com/mrkamin/ToDoList/tree/To-Do-list-Intractive` to clone the repository using the HTTPS link into your local machine
+- Use `git clone git@github.com:mrkamin/ToDoList.git` to clone the repository using the HTTPS link into your local machine
 
 ### Setup
 
