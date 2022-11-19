@@ -1,16 +1,13 @@
-
-/* || ESLINT DISABLE IMPORT */
-
-import { deleteTask, storageUpdate } from './localStorage.js';
+/* eslint-disable import/no-cycle */
+import { deleteTask, storageUpdate } from './localstorage.js';
 import { inputNewTasks, buttonsDeactive } from '../index.js';
 
 export const toDoDivTask = document.getElementById('sect__one__cont__items__item__two');
 const deletToDoTasks = document.querySelector('.item__three__btn__del');
-let clearToDoTasks; 
+let clearToDoTasks;
 let modifyToDoTasks;
 let counter;
 let toDotasksupdate = '';
-
 
 /* || FUNCTION TO DISPLAY THE TASKS */
 export const showToDoTasks = () => {
@@ -51,7 +48,7 @@ export const showToDoTasks = () => {
   toDoTasks = document.querySelectorAll('.p__cont__task');
   toDoTasks.forEach((element) => {
     element.onclick = () => {
-     /*  || local storage update */
+      /*  || local storage update */
       if (element.classList.contains('completedTask')) {
         storageUpdate(element.id.split('_')[0], element.innerText, false);
       } else {
@@ -71,11 +68,11 @@ export const showToDoTasks = () => {
       inputNewTasks.value = parentEl.querySelector('#todo__name').innerText;
       /* || set updateNote to the task that is being edited */
       toDotasksupdate = parentEl.id;
-     /*  || remove task */
-     parentEl.remove();
+      /*  || remove task */
+      parentEl.remove();
     });
   });
-/*   || Delete Tasks */
+  /*   || Delete Tasks */
   clearToDoTasks = document.getElementsByClassName('del__btn');
   Array.from(clearToDoTasks).forEach((element) => {
     element.addEventListener('click', (e) => {

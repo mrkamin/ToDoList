@@ -1,7 +1,7 @@
 import './index.css';
 import { DateTime } from './modules/luxon.js';
 /* eslint-disable import/no-cycle */
-import { showToDoTasks } from './modules/task_show.js';
+import { showToDoTasks } from './modules/task-show.js';
 
 const time = document.getElementById('time');
 // Initial References

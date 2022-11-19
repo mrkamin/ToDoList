@@ -1,5 +1,5 @@
 /* eslint-disable import/no-cycle */
-import { showToDoTasks } from "./task_show.js";
+import { showToDoTasks } from './task-show.js';
 // Remove Task from local storage
 export const deleteTask = (taskValue) => {
   localStorage.removeItem(taskValue);

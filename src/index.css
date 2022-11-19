@@ -1,4 +1,4 @@
- /* Font */
+/* Font */
 
 @import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap");
 
@@ -69,11 +69,11 @@
 
 /*  || UTILITY CLASSES */
 
- * {
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-} 
+}
 
 /*  || UTILITY CLASSES */
 
@@ -81,7 +81,7 @@
 
 html {
   scroll-behavior: smooth;
-} 
+}
 
 body {
   background-image: var(--BG-IMAGE-TWO);
@@ -111,12 +111,12 @@ h2,
 h3,
 h4 {
   margin-bottom: 1em;
-} 
+}
 
- p {
+p {
   line-height: 1.5;
 }
- 
+
 a {
   text-decoration: none;
   color: var(--C-DARK);
@@ -130,12 +130,12 @@ a:focus-visible {
 
 a:active {
   color: var(--LINK-ACTIVE);
-} 
+}
 
 /* || SCTIONONE */
 
 .sect__one__cont {
-  background-color:var(--BGCOLOR-FADE);
+  background-color: var(--BGCOLOR-FADE);
   margin: 400px;
   border: var(--BORDERS);
   border-radius: 10%;
@@ -265,7 +265,7 @@ a:active {
   transition-duration: 0.5s;
 }
 
-.edit__btn  {
+.edit__btn {
   margin-left: auto;
   margin-right: 1em;
 }
