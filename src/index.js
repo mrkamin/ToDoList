@@ -1,8 +1,11 @@
+
+
 import './index.css';
-import { newSectOne } from './modules/inner.js';
-import Todotasks from './modules/task';
+import Todotasks from './modules/task.js';
 import Interact from './modules/interact.js';
-import { newTaskForm, newEditTaskForm, newTaskFromInput, newEditTaskFormInput } from './modules/Variables.js';
+import {
+  newTaskForm, newEditTaskForm, newTaskFromInput, newEditTaskFormInput,
+} from './modules/Variables.js';
 
 newTaskForm.addEventListener('submit', (e) => {
   e.preventDefault();
