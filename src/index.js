@@ -1,5 +1,3 @@
-
-
 import './index.css';
 import Todotasks from './modules/task.js';
 import Interact from './modules/interact.js';
