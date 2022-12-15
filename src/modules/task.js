@@ -150,3 +150,5 @@ static addTask = (description) => {
   this.displayTaskItems();
 };
 }
+
+module.exports = {addTask, delTask}
