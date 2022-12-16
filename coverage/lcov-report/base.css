@@ -2,19 +2,24 @@ body, html {
   margin:0; padding: 0;
   height: 100%;
 }
+
 body {
     font-family: Helvetica Neue, Helvetica, Arial;
     font-size: 14px;
     color:#333;
 }
+
 .small { font-size: 12px; }
 *, *:after, *:before {
   -webkit-box-sizing:border-box;
      -moz-box-sizing:border-box;
           box-sizing:border-box;
   }
+
 h1 { font-size: 20px; margin: 0;}
+
 h2 { font-size: 14px; }
+
 pre {
     font: 12px/1.4 Consolas, "Liberation Mono", Menlo, Courier, monospace;
     margin: 0;
@@ -23,6 +28,7 @@ pre {
     -o-tab-size:  2;
     tab-size: 2;
 }
+
 a { color:#0074D9; text-decoration:none; }
 a:hover { text-decoration:underline; }
 .strong { font-weight: bold; }
