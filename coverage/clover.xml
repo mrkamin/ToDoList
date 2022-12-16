@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1671201083673" clover="3.2.0">
-  <project timestamp="1671201083674" name="All files">
+<coverage generated="1671201652643" clover="3.2.0">
+  <project timestamp="1671201652644" name="All files">
     <metrics statements="21" coveredstatements="12" conditionals="6" coveredconditionals="0" methods="6" coveredmethods="3" elements="33" coveredelements="15" complexity="0" loc="21" ncloc="21" packages="1" files="1" classes="1"/>
     <file name="interact.js" path="G:\Web_Design\Second Module\Second Week\ToDoList\src\modules\interact.js">
       <metrics statements="21" coveredstatements="12" conditionals="6" coveredconditionals="0" methods="6" coveredmethods="3"/>
