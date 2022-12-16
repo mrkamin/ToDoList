@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1671198603106" clover="3.2.0">
+  <project timestamp="1671198603106" name="All files">
+    <metrics statements="21" coveredstatements="12" conditionals="6" coveredconditionals="0" methods="6" coveredmethods="3" elements="33" coveredelements="15" complexity="0" loc="21" ncloc="21" packages="1" files="1" classes="1"/>
+    <file name="interact.js" path="G:\Web_Design\Second Module\Second Week\ToDoList\src\modules\interact.js">
+      <metrics statements="21" coveredstatements="12" conditionals="6" coveredconditionals="0" methods="6" coveredmethods="3"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="3" type="stmt"/>
+      <line num="6" count="3" type="stmt"/>
+      <line num="7" count="3" type="stmt"/>
+      <line num="8" count="3" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="12" count="0" type="stmt"/>
+      <line num="15" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="16" count="0" type="stmt"/>
+      <line num="18" count="0" type="stmt"/>
+      <line num="21" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="22" count="0" type="stmt"/>
+      <line num="23" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="24" count="0" type="stmt"/>
+      <line num="27" count="0" type="stmt"/>
+      <line num="31" count="1" type="stmt"/>
+      <line num="32" count="2" type="stmt"/>
+      <line num="34" count="8" type="stmt"/>
+      <line num="35" count="2" type="stmt"/>
+      <line num="36" count="2" type="stmt"/>
+      <line num="37" count="2" type="stmt"/>
+    </file>
+  </project>
+</coverage>
