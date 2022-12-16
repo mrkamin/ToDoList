@@ -1,7 +1,7 @@
 import Todotasks from './task.js';
 
 export default class Interact {
-static toggleCompleted = (id, curentstatus) => {
+static toDoCompleted = (id, curentstatus) => {
   const taskList = Todotasks.getFromLocalStorag();
   taskList[id].completed = curentstatus;
   Todotasks.setToLocalStorage(taskList);
@@ -24,7 +24,7 @@ static addCheckEvent = () => {
       curentstatus = false;
     }
 
-    this.toggleCompleted(id, curentstatus);
+    this.toDoCompleted(id, curentstatus);
   }));
 };
 
