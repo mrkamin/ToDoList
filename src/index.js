@@ -1,7 +1,12 @@
 import './index.css';
 
 /* eslint-disable import/no-cycle */
-import { showToDoTasks } from './modules/task-show.js';
+/* import { showToDoTasks } from './modules/task-show.js'; */
+import Todotasks from './modules/task.js';
+import Interact from './modules/interact.js';
+import {
+  newTaskForm, newEditTaskForm, newTaskFromInput, newEditTaskFormInput,
+} from './modules/Variables.js';
 
 // Initial References
 export const inputNewTasks = document.querySelector('#sect__one__cont__items__item__one input');
@@ -13,12 +18,7 @@ export const buttonsDeactive = (bool) => {
     element.disabled = bool;
   });
 };
-showToDoTasks();
-import Todotasks from './modules/task.js';
-import Interact from './modules/interact.js';
-import {
-  newTaskForm, newEditTaskForm, newTaskFromInput, newEditTaskFormInput,
-} from './modules/Variables.js';
+/* showToDoTasks(); */
 
 newTaskForm.addEventListener('submit', (e) => {
   e.preventDefault();

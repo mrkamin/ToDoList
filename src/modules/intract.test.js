@@ -1,8 +1,7 @@
-
-import Interact from './interact.js'
+import Interact from './interact.js';
 
 describe('Togglecomplet', () => {
-beforeEach(() => {
+  beforeEach(() => {
     localStorage.clear();
     jest.clearAllMocks();
     localStorage.setItem.mockClear();
@@ -10,12 +9,11 @@ beforeEach(() => {
             + '<li></li>'
             + '</div>';
 
-            const object = { description: 'Test the todo task', completed: false, index: 1 };
-            window.localStorage.setItem('taskList', JSON.stringify([object]));
-});
+    const object = { description: 'Test the todo task', completed: false, index: 1 };
+    window.localStorage.setItem('taskList', JSON.stringify([object]));
+  });
 
-test('Toggleing function for changeing the complete status', () => {
-
+  test('Toggleing function for changeing the complete status', () => {
     /* Arrange And Act */
 
     const id = 0;
@@ -28,10 +26,9 @@ test('Toggleing function for changeing the complete status', () => {
     expect(toggleSpy).toHaveBeenCalledTimes(1);
     const result = JSON.parse(window.localStorage.getItem('taskList'))[id].completed;
     expect(result).toBe(true);
-});
+  });
 
-
-test('Toggleing function for changeing the completed status twice', () => {
+  test('Toggleing function for changeing the completed status twice', () => {
     // Arrange and Act
     const id = 0;
     const curentstatus = true;
