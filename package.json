@@ -4,7 +4,15 @@
   "description": "<!-- TABLE OF CONTENTS -->",
   "private": true,
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "webpack",
+    "start": "webpack serve --open",
+    "watch": "jest --watch"
+  },
+  "jest": {
+    "resetMocks": false,
+    "setupFiles": [
+      "jest-localstorage-mock"
     ],
     "testEnvironment": "jsdom"
   },
