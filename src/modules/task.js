@@ -150,5 +150,5 @@ static addTask = (description) => {
   this.displayTaskItems();
 };
 }
-
-module.exports = {addTask, delTask}
+/* eslint-disable */
+module.exports = { addTask, delTask };
