@@ -18,8 +18,8 @@ describe('Togglecomplet', () => {
 
     const id = 0;
     const curentstatus = true;
-    const toggleSpy = jest.spyOn(Interact, 'toggleCompleted');
-    Interact.toggleCompleted(id, curentstatus);
+    const toggleSpy = jest.spyOn(Interact, 'toDoCompleted');
+    Interact.toDoCompleted(id, curentstatus);
 
     /* Assert */
 
@@ -32,15 +32,15 @@ describe('Togglecomplet', () => {
     // Arrange and Act
     const id = 0;
     const curentstatus = true;
-    const toggleSpy = jest.spyOn(Interact, 'toggleCompleted');
-    Interact.toggleCompleted(id, curentstatus);
+    const toggleSpy = jest.spyOn(Interact, 'toDoCompleted');
+    Interact.toDoCompleted(id, curentstatus);
 
     // Assert
     expect(toggleSpy).toHaveBeenCalledTimes(1);
     const result = JSON.parse(window.localStorage.getItem('taskList'))[id].completed;
     expect(result).toBe(true);
 
-    Interact.toggleCompleted(id, false);
+    Interact.toDoCompleted(id, false);
     // Assert
     expect(toggleSpy).toHaveBeenCalledTimes(2);
     const result2 = JSON.parse(window.localStorage.getItem('taskList'))[id]
