@@ -1,9 +1,24 @@
 import './index.css';
+
+/* eslint-disable import/no-cycle */
+/* import { showToDoTasks } from './modules/task-show.js'; */
 import Todotasks from './modules/task.js';
 import Interact from './modules/interact.js';
 import {
   newTaskForm, newEditTaskForm, newTaskFromInput, newEditTaskFormInput,
 } from './modules/Variables.js';
+
+// Initial References
+export const inputNewTasks = document.querySelector('#sect__one__cont__items__item__one input');
+
+// Disable Edit Button
+export const buttonsDeactive = (bool) => {
+  const buttonModify = document.getElementsByClassName('edit__btn');
+  Array.from(buttonModify).forEach((element) => {
+    element.disabled = bool;
+  });
+};
+/* showToDoTasks(); */
 
 newTaskForm.addEventListener('submit', (e) => {
   e.preventDefault();
