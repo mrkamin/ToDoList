@@ -4,7 +4,7 @@
   "description": "<!-- TABLE OF CONTENTS -->",
   "private": true,
   "scripts": {
-    "test": "jest --coverage --watch",
+    "test": "jest",
     "build": "webpack",
     "start": "webpack serve --open",
     "watch": "jest --watch"

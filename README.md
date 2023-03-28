@@ -52,7 +52,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://mrkamin.github.io/ToDoList/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -64,7 +64,7 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-- Use `git clone https://github.com/mrkamin/` to clone the repository using the HTTPS link into your local machine
+- Use `git clone git@github.com:mrkamin/ToDoList.git` to clone the repository using the HTTPS link into your local machine
 
 ### Setup
 
@@ -105,8 +105,10 @@ To get a local copy up and running follow these simple steps.
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[Add unique ID for each tasks]**
-- [ ] **[Add]**
-- [ ] **[Add]**
+- [ ] **[Add tasks to the taks list]**
+- [ ] **[edit tasks in the tasks list]**
+- [ ] **[delete tasks in the tasks list]**
+- [ ] **[delete all tasks in the tasks list]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

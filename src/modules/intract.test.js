@@ -1,6 +1,6 @@
 import Interact from './interact.js';
 
-describe('ToDocomplet', () => {
+describe('Togglecomplet', () => {
   beforeEach(() => {
     localStorage.clear();
     jest.clearAllMocks();
